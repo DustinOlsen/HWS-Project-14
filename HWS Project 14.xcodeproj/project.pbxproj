@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB4997EA2627552F003A1FA3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4997E92627552F003A1FA3 /* MapView.swift */; };
+		BB4997EB2627552F003A1FA3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4997E92627552F003A1FA3 /* MapView.swift */; };
 		BB49BB41261F4F9000A708A2 /* HWS_Project_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB49BB2E261F4F8F00A708A2 /* HWS_Project_14App.swift */; };
 		BB49BB42261F4F9000A708A2 /* HWS_Project_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB49BB2E261F4F8F00A708A2 /* HWS_Project_14App.swift */; };
 		BB49BB43261F4F9000A708A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB49BB2F261F4F8F00A708A2 /* ContentView.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB4997E92627552F003A1FA3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BB49BB2E261F4F8F00A708A2 /* HWS_Project_14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWS_Project_14App.swift; sourceTree = "<group>"; };
 		BB49BB2F261F4F8F00A708A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB49BB30261F4F9000A708A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 			children = (
 				BB49BB2E261F4F8F00A708A2 /* HWS_Project_14App.swift */,
 				BB49BB2F261F4F8F00A708A2 /* ContentView.swift */,
+				BB4997E92627552F003A1FA3 /* MapView.swift */,
 				BB49BB30261F4F9000A708A2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB49BB43261F4F9000A708A2 /* ContentView.swift in Sources */,
+				BB4997EA2627552F003A1FA3 /* MapView.swift in Sources */,
 				BB49BB41261F4F9000A708A2 /* HWS_Project_14App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB49BB44261F4F9000A708A2 /* ContentView.swift in Sources */,
+				BB4997EB2627552F003A1FA3 /* MapView.swift in Sources */,
 				BB49BB42261F4F9000A708A2 /* HWS_Project_14App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
