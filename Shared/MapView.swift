@@ -16,11 +16,6 @@ struct MapView: UIViewRepresentable {
     var annotations: [MKPointAnnotation]
     
     
-    
-    
-    
-    
-    
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
         mapView.delegate = context.coordinator
