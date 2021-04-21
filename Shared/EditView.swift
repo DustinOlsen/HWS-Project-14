@@ -8,9 +8,6 @@
 import SwiftUI
 import MapKit
 
-
-
-
 struct EditView: View {
     
     func fetchNearbyPlaces() {
@@ -56,7 +53,6 @@ struct EditView: View {
                            TextField("Place name", text: $placemark.wrappedTitle)
                            TextField("Description", text: $placemark.wrappedSubtitle)
                        }
-                    
                     Section(header: Text("Nearby…")) {
                         if loadingState == .loaded {
                             List(pages, id: \.pageid) { page in
@@ -72,8 +68,6 @@ struct EditView: View {
                             Text("Please try again later.")
                         }
                     }
-
-
                    }
                    .navigationBarTitle("Edit place")
                    .navigationBarItems(trailing: Button("Done") {
